@@ -17,6 +17,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/d33097f790.js" crossorigin="anonymous"></script>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,25 +27,94 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
 </head>
 
-<body style="background-color: #232931; color: white; ">
+<body>
 
-    <div id="banner" style="margin-top: 15%; margin-left: 6%; margin-right: 6%;">
+    <div class="banner">
 
-        <h1 style="font-family: 'PT Sans', sans-serif; letter-spacing: 3px; font-size: 300%;">Euan Campbell</h1>
-        <p style="font-family: 'Karla', sans-serif; letter-spacing: 2px; font-size: 80%;">PRODUCT MANAGER at <a href="https://octopusgroup.com" target="__blank">OCTOPUS</a>.</p>
-        
-        <!-- <hr style="border-color: white;"> -->
-        <!-- <p style="font-family: 'Karla', sans-serif; letter-spacing: 2px; font-size: 80%;">Technical: Microservices and integration-led architecture, Python (flask, pandas), SQL Server, Azure.</p> -->
-        <!-- <p style="font-family: 'Karla', sans-serif; letter-spacing: 2px; font-size: 80%;">Non-Technical: Stakeholder/customer management, team alignment, issue prioritisation.</p> -->
+        <h1>Euan Campbell</h1>
+
+        <div class="sub-heading-container">
+
+            <div class="sub-heading-text">
+                PRODUCT MANAGER at&nbsp;
+            </div>
+
+            <div class="sub-heading-logo"> 
+                <a href="https://octopusinvestments.com/" target="__blank">
+                    <img class="company-logo" src="/assets/images/octopus.png"/>
+                </a>
+            </div>
+
+        </div>
         
         <div class="btn-group">
-            <a href="https://www.linkedin.com/in/euancampbell/" target="_blank" class="btn btn-secondary-outline" style="border-color: white; color: inherit; font-family: 'Karla', sans-serif;">LinkedIn</a>
-            <a href="https://github.com/euanacampbell" target="_blank" class="btn btn-secondary-outline" style="border-color: white; color: inherit; font-family: 'Karla', sans-serif;">GitHub</a>
-            <a href="https://github.com/euanacampbell?tab=repositories" target="_blank" class="btn btn-secondary-outline" style="border-color: white; color: inherit; font-family: 'Karla', sans-serif;">Projects</a>
+            <a class="btn btn-secondary-outline button-text" href="https://www.linkedin.com/in/euancampbell/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a class="btn btn-secondary-outline button-text" href="https://github.com/euanacampbell?tab=repositories/" target="_blank"><i class="fa-brands fa-square-github"></i> Projects</a>
         </div>
     </div>
 
 </body>
+
+
+<style>
+
+body {
+    background-color: #232931;
+    color: white; 
+}
+
+.banner {
+    margin-top: 15%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.company-logo {
+    padding: 6px;
+    height: 5vh;
+    background-color: #FFFFFF;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 300%;
+}
+
+.sub-heading-container {
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.sub-heading-text {
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 1.5px;
+    display: inline;
+}
+
+.sub-heading-logo {
+   display: inline;
+   white-space: nowrap;
+}
+
+.button-text {
+    border-color: white;
+    color: inherit;
+    font-family: 'Karla', sans-serif;
+}
+
+a:hover {
+
+  background-color: white;
+
+}
+
+</style>
