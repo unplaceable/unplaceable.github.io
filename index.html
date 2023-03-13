@@ -25,37 +25,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div class="banner">
+    <h1>Euan Campbell</h1>
 
-        <h1>Euan Campbell</h1>
+    <div class="sub-heading-container">
 
-        <div class="sub-heading-container">
-
-            <div class="sub-heading-text">
-                PRODUCT MANAGER at&nbsp;
-            </div>
-
-            <div class="sub-heading-logo"> 
-                <a href="https://octopusgroup.com/" target="__blank">
-                    <img class="company-logo" src="/assets/images/octopus.png"/>
-                </a>
-            </div>
-
+        <div class="sub-heading-text">
+            PRODUCT MANAGER at 
+            <a class="company-text fw-bolder" href="https://octopusgroup.com/" target="__blank">OCTOPUS</a>
         </div>
-        
-        <div class="btn-group">
-            <a class="btn btn-secondary-outline button-text" href="https://www.linkedin.com/in/euancampbell/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-            <a class="btn btn-secondary-outline button-text" href="https://github.com/euanacampbell?tab=repositories/" target="_blank"><i class="fa-brands fa-square-github"></i> Projects</a>
-        </div>
+
+    </div>
+    
+    <div class="btn-group">
+        <a class="btn btn-secondary-outline button-text" href="https://www.linkedin.com/in/euancampbell/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a class="btn btn-secondary-outline button-text" href="https://github.com/euanacampbell?tab=repositories/" target="_blank"><i class="fa-brands fa-square-github"></i> Projects</a>
     </div>
 
 </body>
@@ -66,9 +54,6 @@
 body {
     background-color: #232931;
     color: white; 
-}
-
-.banner {
     margin-top: 15%;
     margin-left: 6%;
     margin-right: 6%;
@@ -84,8 +69,8 @@ body {
 }
 
 h1 {
-    font-family: 'PT Sans', sans-serif;
-    letter-spacing: 3px;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 1px;
     font-size: 300%;
 }
 
@@ -100,21 +85,23 @@ h1 {
     display: inline;
 }
 
-.sub-heading-logo {
-   display: inline;
-   white-space: nowrap;
-}
-
 .button-text {
     border-color: white;
     color: inherit;
     font-family: 'Karla', sans-serif;
 }
 
-a:hover {
+.company-text {
+    color: #232931;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
 
-  background-color: white;
-
+.company-text:hover {
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
 }
 
 </style>
