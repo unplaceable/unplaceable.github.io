@@ -1,0 +1,11 @@
+name: personal_site
+display_name: Personal site
+link: https://www.euan.app
+repo_link: https://github.com/unplaceable/unplaceable.github.io
+public: False
+
+description: ''
+type: website
+lifecycle: live
+base_technology: ''
+integrations: []
